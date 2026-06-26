@@ -26,3 +26,5 @@ def teacher(id: int):
 @app.get("/search")
 def search(name: str):
     return {"student_name": name}
+
+print("Gift diff Test")
